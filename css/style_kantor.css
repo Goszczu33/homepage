@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form__currencyText {
+    width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__field {
+    border: 1px solid rgb(34, 28, 65);
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.form__legend {
+    background-color: rgb(58, 97, 226);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.form__fieldset{ 
+    border: 1px solid rgb(34, 28, 65);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: rgb(58, 97, 226);
+    color: aliceblue;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.form__button:hover {
+    background-color: rgb(102, 132, 233);
+}
+
+.form__button:active {
+    background-color: rgb(146, 168, 243);
+}

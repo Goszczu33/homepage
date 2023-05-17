@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympique Marseille</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Inter&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <button class="body__changecolor"> Włącz <span class="js-themeName article__themeName"> ciemny </span> motyw </button>
+    <header>
+        <h1 class="header"> Olympique Marsylia - 1899 </h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li> <a class="navigation__link" href="#historia"> Historia </a> </li>
+            <li> <a class="navigation__link" href="#druzyna"> Drużyna </a> </li>
+            <li> <a class="navigation__link" href="#terminarz"> Terminarz </a> </li>
+            <li> <a class="navigation__link" href="#tabela-ligowa"> Tabela Ligowa </a> </li>
+        </ul>
+    </nav>
+    <main>
+        <article class="article">
+            <h2>Olympique Marsylia</h2>
+            <a title="Pobierz obraz" href="https://i.postimg.cc/rz6QJvv5/Olympique-Marseille-logo-svg.png" download="Herb klubu Marsylia.jpg">
+                <img class="article__picture" width="150" src="https://i.postimg.cc/rz6QJvv5/Olympique-Marseille-logo-svg.png" alt="Herb klubu">
+            </a>
+            <br> <button class="article__buttonClub"> <span class="js-themeImage article__themeImage"> Ukryj </span> obrazek </button> </br>
+            <h2 id="historia">Historia</h2>
+            <div class="article__history"> Francuski klub piłkarski z siedzibą w marsylii, założony 31 sierpnia 1899. <br>
+                Najbardziej utytuowany francuski klub piłkarski: </div>
+            <div class="article__successes">
+                <ul>
+                    <li> 9-krotny mistrz kraju </li>
+                    <li> 10-krotny zdobywca pucharu francji </li>
+                    <li> 3-krotny zwycięsca pucharu ligi</li>
+                    <li> Zdobywca pucharu <span class="article__champion"> ligi mistrzów </span> w sezonie 1992/93.
+                    </li>
+                </ul>
+                <a> Więcej o histori klubu <a class="article__wiki" title="Przekierowanie na wikipedie" rel="noreferrer noopener"
+                        target="_blank" href="https://pl.wikipedia.org/wiki/Olympique_Marsylia"> tutaj (otworzy się
+                        nowa karta).</a>
+
+                </a>
+            </div>
+        </article>
+        <article class="article article--specialFont">
+            <h2 id="druzyna">Pierwsza Drużyna</h2>
+            <img class="article__pictureTeam" max-width="500" src="https://i.postimg.cc/C5JbZ9wF/druzyna.jpg" alt="Pierwsza drużyna">
+            <h3>Piłkarze</h3>
+            <p> <button class="article__clickplayers"> <span class="js-themePlayers article__themePlayers"> Ukryj </span> Piłkarzy </button></p>
+            <ol class="article__players" type="I">
+                <button class="article__cards"> <span class="js-themeCards article__themeCards"> Pokaż </span> kartki </button>
+                <li> Bramkarz: </li>
+                <ul class="article__unorderedlist">
+                    <li> <em> Lopez P. (Bramkarz) </em> </li>
+                </ul>
+                <li> Obrońcy:
+                    <ul class="article__unorderedlist">
+                        <li> Mbemba Ch. </li>
+                        <li> Gigot S <div class="redyellowcards"> 🟨🟨 </div></li> 
+                        <li> Clauss J. </li>
+                    </ul>
+                </li>
+                <li> Pomocnicy:
+                    <ul class="article__unorderedlist">
+                        <li> <strong>Rongier V. (Kapitan) </strong>
+                        <li> Clauss J. </li>
+                        <li>Veretout J. </li>
+                        <li> Tavares N.</li>
+                        <li> Guendouzi M.  </li>
+                    </ul>
+                </li>
+                <li> Napastnicy:
+                    <ul class="article__unorderedlist">
+                        <li> Under C.  </li>
+                        <li> Sanchez A. </li>
+                        <li> Malinowsky R. </li>
+                    </ul>
+                </li>
+            </ol>
+
+            <div class="article__coach">
+                <h3>Trener</h3>
+                <p class="article__tudor"> Tudor I. </p>
+            </div>
+        </article>
+        <article>
+            <h2 id="terminarz" class="article__timetableheader"> Terminarz </h2>
+            <div class="article__timetable">
+                <p> 16.04.23 Olympique Marsylia vs. Troyes </p>
+                <p> 23.04.23 Olympique Lyon vs Olympique Marsylia </p>
+
+
+            </div>
+            <hr>
+        </article>
+        <article class="article">
+            <div class="article__container">
+                <table class="article__table">
+                    <caption>
+                        <h2 id="tabela-ligowa"> Tabela ligi francuskiej - Ligue 1 </h2>
+                    </caption>
+                    <tbody>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="col"> Lp </th>
+                            <th class="article__tableCell" scope="col"> Herb </th>
+                            <th class="article__tableCell" scope="col"> Drużyna </th>
+                            <th class="article__tableCell" scope="col"> Mecze </th>
+                            <th class="article__tableCell" scope="col"> BZ </th>
+                            <th class="article__tableCell" scope="col"> BS </th>
+                            <th class="article__tableCell" scope="col"> Pkt </th>
+                            <th class="article__tableCell" scope="col"> Awans do pucharów</th>
+                            <th class="article__tableCell" scope="col"> Więcej o klubie </th>
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 1. </th>
+                            <td class="article__tableCell"> <img width="30" src="https://i.postimg.cc/HsHSrC9C/psg.png" alt="Paris Saint Germain">
+                            </td>
+                            <td class="article__tableCell"> PSG </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 70 </td>
+                            <td class="article__tableCell"> 30 </td>
+                            <td class="article__tableCell points"> 72 </td>
+                            <td class="article__tableCell article--tablechampionsleague" rowspan="3"> Liga Mistrzów </td>
+                            <td class="article__tableCell"> <a rel="noreferrer noopener" target="_blank" class="article__link"
+                                    href="https://www.transfermarkt.pl/fc-paris-saint-germain/startseite/verein/583"
+                                    title="Informacja na transfermarkt.pl. Link otwiera się na nowej karcie">
+                                    PSG</a> </td>
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 2. </th>
+                            <td class="article__tableCell"> <img width="30" src="https://i.postimg.cc/rz6QJvv5/Olympique-Marseille-logo-svg.png"
+                                    alt="Olympique Marsylia"> </td>
+                            <td class="article__tableCell"> Olympique Marsylia </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 57 </td>
+                            <td class="article__tableCell"> 30 </td>
+                            <td class="article__tableCell points"> 64 </td>
+                            <td class="article__tableCell"> <a rel="noreferrer noopener" target="_blank" class="article__link"
+                                    href="https://www.transfermarkt.pl/olympique-marseille/startseite/verein/244"
+                                    title="Przekierowanie na transfermarkt.pl. Link otwiera się na nowej karcie">
+                                    Marsylia</a> </td>
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 3. </th>
+                            <td class="article__tableCell"> <img width="30" src="https://i.postimg.cc/HL70SS92/lens.png" alt="RC Lens"> </td>
+                            <td class="article__tableCell"> RC Lens </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 51 </td>
+                            <td class="article__tableCell"> 25 </td>
+                            <td class="article__tableCell points"> 63 </td>
+                            <td class="article__tableCell"> <a rel="noreferrer noopener" target="_blank"
+                                    href="https://www.transfermarkt.pl/rc-lens/startseite/verein/826" class="article__link"
+                                    title="Przekierowanie na transfermarkt.pl. Link otwiera się na nowej karcie"> RC
+                                    Lens</a> </td>
+
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 4. </th>
+                            <td class="article__tableCell"><img width="30" src="https://i.postimg.cc/k4Kc5jV4/monaco.png" alt="AS Monaco"> </td>
+                            <td class="article__tableCell"> Monaco </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 66 </td>
+                            <td class="article__tableCell"> 43 </td>
+                            <td class="article__tableCell points"> 61 </td>
+                            <td class="article__tableCell article--tableeurope"> Liga Europy </td>
+                            <td class="article__tableCell"> <a rel="noreferrer noopener" target="_blank" class="article__link"
+                                    href="https://www.transfermarkt.pl/as-monaco/startseite/verein/162"
+                                    title="Przekierowanie na transfermarkt.pl. Link otwiera się na nowej karcie"> AS
+                                    Monaco</a> </td>
+
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 5. </th>
+                            <td class="article__tableCell"> <img width="30" src="https://i.postimg.cc/Y2NRKsKD/lille.png" alt="OSC Lille"> </td>
+                            <td class="article__tableCell"> Lille </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 56 </td>
+                            <td class="article__tableCell"> 39 </td>
+                            <td class="article__tableCell points"> 55 </td>
+                            <td class="article__tableCell article--tableconference"> Liga Konferencji </td>
+                            <td class="article__tableCell"> <a rel="noreferrer noopener" target="_blank" class="article__link"
+                                    href="https://www.transfermarkt.pl/losc-lille/startseite/verein/1082"
+                                    title="Przekierowanie na transfermarkt.pl. Link otwiera się na nowej karcie">
+                                    OSC
+                                    Lille
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell" scope="row"> 6. </th>
+                            <td class="article__tableCell"> <img width="30" src="https://i.postimg.cc/90kvj8sf/273.png" alt="Stade Rennes"> </td>
+                            <td class="article__tableCell"> Rennes </td>
+                            <td class="article__tableCell"> 31 </td>
+                            <td class="article__tableCell"> 51 </td>
+                            <td class="article__tableCell"> 33 </td>
+                            <td class="article__tableCell points"> 53 </td>
+                            <td class="article__tableCell article--tablenowin"> Brak awansu </td>
+                            <td class="article__tableCell "> <a rel="noreferrer noopener" target="_blank" class="article__link"
+                                    href="https://www.transfermarkt.pl/fc-stade-rennes/startseite/verein/273"
+                                    title="Przekierowanie na transfermarkt.pl. Link otwiera się na nowej karcie">
+                                    Stade
+                                    Rennes</a> </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </article>
+       
+    </main>
+    <footer class="footer"> Wszelkie prawa zastrzeżone. Więcej informacji udzieli Wojtek. <br>
+    </footer>
+
+
+</body>
+
+</html>

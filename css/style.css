@@ -1,0 +1,259 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 50px auto 100px;
+    background-color: rgb(191, 217, 224);
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navigation {
+    background-color: rgb(150 233 241);
+    padding: 10px;
+    border-radius: 60%;
+}
+
+.navigation__list {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    line-height: 1.8;
+    font-weight: 500;
+    
+}
+
+.navigation__link {
+    color: rgb(29, 89, 255);
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+
+.article {
+    text-align: center;
+}
+
+.article__picture {
+    display: block;
+    margin: 0 auto;
+}
+
+.article__buttonClub {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    color: azure;
+    background-color: deepskyblue;
+}
+
+.article__wiki { 
+    text-decoration: none;
+    padding: auto;
+    color: black;
+   font-weight: 600;
+}
+.article__successes {
+    color: rgb(2, 2, 2);
+    background-color: rgb(204, 204, 204);
+    border: 2px solid rgb(120 151 199);
+    border-bottom-color: rgb(129 129 129);
+    border-radius: 7px 26px 120px 7px;
+    border-width: 8px 14px 7px 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 5px 20px 20px;
+    margin: 6px 10px 13px 8px;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 500;
+}
+
+.article--specialFont {
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.body__changecolor {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    background-color: rgb(7, 183, 253);
+    color: azure;
+}
+
+.dark {
+    color: aliceblue;
+    background: #222;
+}
+
+.buttondark {
+    background-color: rgb(7, 183, 253);
+    color: azure;
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.article__history {
+
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.article__clickplayers {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: azure;
+    background-color: deepskyblue;
+}
+
+.article__cards {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: azure;
+    background-color: rgb(240, 8, 8);
+}
+
+.navstyle:visited {
+    color: darkblue;
+}
+
+.navstyle:focus {
+    outline: 3px solid white
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.article__champion {
+    font-weight: bold;
+}
+
+.article--tablechampionsleague {
+    background-color: greenyellow;
+}
+
+.article--tableeurope {
+    background-color: gold;
+}
+
+.article--tableconference {
+    background-color: bisque;
+}
+
+.article--tablenowin {
+    background-color: cadetblue;
+}
+
+.points {
+    font-weight: 700;
+}
+
+.article__timetableheader {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.article__timetable {
+    color: antiquewhite;
+    background-color: darkcyan;
+    max-width: 700px;
+    border: 4px solid rgb(61, 3, 3);
+    outline: 3px solid rgb(212, 88, 88);
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    margin: 30px 2px 29px 100px
+}
+
+.article__pictureTeam {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15%;
+
+}
+
+.article__table {
+    font-family: 'Chivo Mono', monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.article__tableRow {
+    background-color: rgb(241, 188, 122);
+    color: black;
+}
+
+.article__tableRow:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+.article__coach {
+    text-align: right;
+}
+
+.article__tudor {
+    font-size: large;
+    font-weight: 700;
+    color: crimson;
+}
+
+.article__tableCell {
+    border: 3px solid rgb(82, 5, 5);
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    text-align: center;
+}
+
+.article__players {
+    text-shadow: 2px 4px 6px rgb(0, 204, 255);
+    line-height: 1.8;
+    font-family: 'Chivo Mono', monospace;
+    text-align: left;
+}
+
+.article__unorderedlist {
+    list-style-type: square;
+}
+
+.article__container {
+    overflow-x: auto;
+}
+
+.article__link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.article__link:hover {
+    color: red;
+    border-bottom: 2px solid;
+    outline: none;
+}
