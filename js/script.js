@@ -1,55 +1,53 @@
+{
+const welcome = () => {
 console.log("Pozdrawiam serdecznie ! ")
+}
 
-
-let changecolor = document.querySelector(".body__changecolor");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".js-themeName");
-
-changecolor.addEventListener("click", () => {
-    body.classList.toggle("dark");
-
+const onChangeBackgroundClick = () => {
+const body = document.querySelector(".body");
+const themeName = document.querySelector(".js-themeName");
+body.classList.toggle("dark");
 themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
-});
-
-let buttonClub = document.querySelector(".article__buttonClub");
-let picture = document.querySelector(".article__picture");
-let clickplayers = document.querySelector(".article__clickplayers");
-let themeImage = document.querySelector(".js-themeImage");
-let themePlayers = document.querySelector(".js-themePlayers");
-let players = document.querySelector(".article__players");
-
-let redyellowcards = document.querySelector(".redyellowcards");
-let cards = document.querySelector(".article__cards");
-let themeCards = document.querySelector(".js-themeCards");
-
-buttonClub.addEventListener("click", () => {
-    picture.classList.toggle("hidden");
-    if (picture.classList.contains("hidden")) {
-        themeImage.innerText = "Pokaż";
-    } else {
-        themeImage.innerText = "Ukryj";
+}
+const changeBackgroundColor = document.querySelector(".body__changecolor");
+changeBackgroundColor.addEventListener("click", onChangeBackgroundClick);
+    
+const toogleArmsButton = () => {
+    const picture = document.querySelector(".article__picture");
+    const themeImage = document.querySelector(".js-themeImage");
+        picture.classList.toggle("hidden");
+        if (picture.classList.contains("hidden")) {
+            themeImage.innerText = "Pokaż";
+        } else {
+            themeImage.innerText = "Ukryj";
+        }
     }
-});
+const buttonClub = document.querySelector(".article__buttonClub");
+buttonClub.addEventListener("click", toogleArmsButton);
 
 
-clickplayers.addEventListener("click", () => {
+const togglePlayersButton = () => {
+    const themePlayers = document.querySelector(".js-themePlayers");
+    const players = document.querySelector(".article__players");
     players.classList.toggle("hidden");
     if (players.classList.contains("hidden")) {
         themePlayers.innerText = "Pokaż";
     } else {
         themePlayers.innerText = "Ukryj";
     }
-});
+}
+const clickplayers = document.querySelector(".article__clickplayers");
+clickplayers.addEventListener("click", togglePlayersButton);
 
-cards.addEventListener("click", () => {
+const toggleCardsbutton = () => {
+    const themeCards = document.querySelector(".js-themeCards");
+    const redyellowcards = document.querySelector(".redyellowcards");
     redyellowcards.classList.toggle("hidden");
     if (redyellowcards.classList.contains("hidden")) {
         themeCards.innerText = "Pokaż";
     } else {
         themeCards.innerText = "Ukryj";
     }
-});
+}
 
-
-
-
+}
