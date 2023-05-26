@@ -9,8 +9,7 @@ const themeName = document.querySelector(".js-themeName");
 body.classList.toggle("dark");
 themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
 }
-const changeBackgroundColor = document.querySelector(".body__changecolor");
-changeBackgroundColor.addEventListener("click", onChangeBackgroundClick);
+
     
 const toogleArmsButton = () => {
     const picture = document.querySelector(".article__picture");
@@ -22,8 +21,7 @@ const toogleArmsButton = () => {
             themeImage.innerText = "Ukryj";
         }
     }
-const buttonClub = document.querySelector(".article__buttonClub");
-buttonClub.addEventListener("click", toogleArmsButton);
+
 
 
 const togglePlayersButton = () => {
@@ -36,8 +34,6 @@ const togglePlayersButton = () => {
         themePlayers.innerText = "Ukryj";
     }
 }
-const clickplayers = document.querySelector(".article__clickplayers");
-clickplayers.addEventListener("click", togglePlayersButton);
 
 const toggleCardsbutton = () => {
     const themeCards = document.querySelector(".js-themeCards");
@@ -50,4 +46,19 @@ const toggleCardsbutton = () => {
     }
 }
 
+const init = () => {
+    const changeBackgroundColor = document.querySelector(".body__changecolor");
+changeBackgroundColor.addEventListener("click", onChangeBackgroundClick);
+
+    const buttonClub = document.querySelector(".article__buttonClub");
+    buttonClub.addEventListener("click", toogleArmsButton);
+
+    const clickplayers = document.querySelector(".article__clickplayers");
+    clickplayers.addEventListener("click", togglePlayersButton);
+
+   const cards = document.querySelector(".redyellowcards");
+   cards.addEventListener("click", toggleCardsbutton);
+    
+}
+init();
 }
